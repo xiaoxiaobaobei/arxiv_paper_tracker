@@ -35328,3 +35328,507 @@ MCOO-SLAM提出了一种多相机全景物体SLAM系统，旨在解决传统SLAM
 
 ---
 
+
+
+## ArXiv论文 - 最近5天 (截至 2026-02-17)
+
+### Long Context, Less Focus: A Scaling Gap in LLMs Revealed through Privacy and Personalization
+**作者**: Shangding Gu
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.15028v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Rethinking Diffusion Models with Symmetries through Canonicalization with Applications to Molecular Graph Generation
+**作者**: Cai Zhou, Zijie Chen, Zian Li, Jike Wang, Kaiyi Jiang, Pan Li, Rose Yu, Muhan Zhang, Stephen Bates, Tommi Jaakkola
+**类别**: cs.LG, cs.AI, math.GR, q-bio.BM
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.15022v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Hunt Globally: Deep Research AI Agents for Drug Asset Scouting in Investing, Business Development, and Search & Evaluation
+**作者**: Alisa Vinogradova, Vlad Vinogradov, Luba Greenwood, Ilya Yasny, Dmitry Kobyzev, Shoman Kasbekar, Kong Nguyen, Dmitrii Radkevich, Roman Doronin, Andrey Doronichev
+**类别**: cs.AI, cs.IR
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.15019v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Cold-Start Personalization via Training-Free Priors from Structured World Models
+**作者**: Avinandan Bose, Shuyue Stella Li, Faeze Brahman, Pang Wei Koh, Simon Shaolei Du, Yulia Tsvetkov, Maryam Fazel, Lin Xiao, Asli Celikyilmaz
+**类别**: cs.CL, cs.AI, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.15012v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Distributed Quantum Gaussian Processes for Multi-Agent Systems
+**作者**: Meet Gandhi, George P. Kontoudis
+**类别**: cs.MA, cs.LG, math.DG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.15006v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Spectral Convolution on Orbifolds for Geometric Deep Learning
+**作者**: Tim Mangliers, Bernhard Mössner, Benjamin Himpel
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14997v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### On the Semantics of Primary Cause in Hybrid Dynamic Domains
+**作者**: Shakil M. Khan, Asim Mehmood, Sandra Zilles
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14994v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### ThermEval: A Structured Benchmark for Evaluation of Vision-Language Models on Thermal Imagery
+**作者**: Ayush Shrivastava, Kirtan Gangani, Laksh Jain, Mayank Goel, Nipun Batra
+**类别**: cs.CV, cs.AI, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14989v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### PhyScensis: Physics-Augmented LLM Agents for Complex Physical Scene Arrangement
+**作者**: Yian Wang, Han Yang, Minghao Guo, Xiaowen Qiu, Tsun-Hsuan Wang, Wojciech Matusik, Joshua B. Tenenbaum, Chuang Gan
+**类别**: cs.RO, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14968v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### AnchorWeave: World-Consistent Video Generation with Retrieved Local Spatial Memories
+**作者**: Zun Wang, Han Lin, Jaehong Yoon, Jaemin Cho, Yue Zhang, Mohit Bansal
+**类别**: cs.CV, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14941v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### MAC-AMP: A Closed-Loop Multi-Agent Collaboration System for Multi-Objective Antimicrobial Peptide Design
+**作者**: Gen Zhou, Sugitha Janarthanan, Lianghong Chen, Pingzhao Hu
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14926v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### ReusStdFlow: A Standardized Reusability Framework for Dynamic Workflow Construction in Agentic AI
+**作者**: Gaoyang Zhang, Shanghong Zou, Yafang Wang, He Zhang, Ruohua Xu, Feng Zhao
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14922v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### BHyGNN+: Unsupervised Representation Learning for Heterophilic Hypergraphs
+**作者**: Tianyi Ma, Yiyue Qian, Zehong Wang, Zheyuan Zhang, Chuxu Zhang, Yanfang Ye
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14919v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### BFS-PO: Best-First Search for Large Reasoning Models
+**作者**: Fiorenzo Parascandolo, Wenhui Tan, Enver Sangineto, Ruihua Song, Rita Cucchiara
+**类别**: cs.CL, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14917v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Position: Introspective Experience from Conversational Environments as a Path to Better Learning
+**作者**: Claudiu Cristian Musat, Jackson Tolins, Diego Antognini, Jingling Li, Martin Klissarov, Tom Duerig
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14910v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### The Potential of CoT for Reasoning: A Closer Look at Trace Dynamics
+**作者**: Gregor Bachmann, Yichen Jiang, Seyed Mohsen Moosavi Dezfooli, Moin Nabi
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14903v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Picking the Right Specialist: Attentive Neural Process-based Selection of Task-Specialized Models as Tools for Agentic Healthcare Systems
+**作者**: Pramit Saha, Joshua Strong, Mohammad Alsharid, Divyanshu Mishra, J. Alison Noble
+**类别**: cs.LG, cs.AI, cs.CV, cs.MA
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14901v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Lifted Relational Probabilistic Inference via Implicit Learning
+**作者**: Luise Ge, Brendan Juba, Kris Nilsson, Alison Shao
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14890v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Numerical exploration of the range of shape functionals using neural networks
+**作者**: Eloi Martinet, Ilias Ftouhi
+**类别**: math.OC, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14881v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### CT-Bench: A Benchmark for Multimodal Lesion Understanding in Computed Tomography
+**作者**: Qingqing Zhu, Qiao Jin, Tejas S. Mathai, Yin Fang, Zhizheng Wang, Yifan Yang, Maame Sarfo-Gyamfi, Benjamin Hou, Ran Gu, Praveen T. S. Balamuralikrishna, Kenneth C. Wang, Ronald M. Summers, Zhiyong Lu
+**类别**: cs.CV, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14879v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### On the Learning Dynamics of RLVR at the Edge of Competence
+**作者**: Yu Huang, Zixin Wen, Yuejie Chi, Yuting Wei, Aarti Singh, Yingbin Liang, Yuxin Chen
+**类别**: cs.LG, cs.AI, math.OC, stat.ML
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14872v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Concept Influence: Leveraging Interpretability to Improve Performance and Efficiency in Training Data Attribution
+**作者**: Matthew Kowal, Goncalo Paulo, Louis Jaburi, Tom Tseng, Lev E McKinney, Stefan Heimersheim, Aaron David Tucker, Adam Gleave, Kellin Pelrine
+**类别**: cs.AI, stat.ML
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14869v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Goldilocks RL: Tuning Task Difficulty to Escape Sparse Rewards for Reasoning
+**作者**: Ilia Mahrooghi, Aryo Lotfi, Emmanuel Abbe
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14868v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### EmbeWebAgent: Embedding Web Agents into Any Customized UI
+**作者**: Chenyang Ma, Clyde Fare, Matthew Wilson, Dave Braines
+**类别**: cs.AI, cs.SE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14865v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### The Well-Tempered Classifier: Some Elementary Properties of Temperature Scaling
+**作者**: Pierre-Alexandre Mattei, Bruno Loureiro
+**类别**: stat.ML, cs.AI, cs.IT, cs.LG, stat.ME
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14862v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### World Models for Policy Refinement in StarCraft II
+**作者**: Yixin Zhang, Ziyi Wang, Yiming Rong, Haoxi Wang, Jinling Jiang, Shuang Xu, Haoran Wu, Shiyu Zhou, Bo Xu
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14857v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Atomix: Timely, Transactional Tool Use for Reliable Agentic Workflows
+**作者**: Bardia Mohammadi, Nearchos Potamitis, Lars Klein, Akhil Arora, Laurent Bindschaedler
+**类别**: cs.LG, cs.AI, cs.DC, cs.MA
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14849v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Debiasing Central Fixation Confounds Reveals a Peripheral "Sweet Spot" for Human-like Scanpaths in Hard-Attention Vision
+**作者**: Pengcheng Pan, Yonekura Shogo, Yasuo Kuniyosh
+**类别**: cs.CV, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14834v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Return of the Schema: Building Complete Datasets for Machine Learning and Reasoning on Knowledge Graphs
+**作者**: Ivan Diliso, Roberto Barile, Claudia d'Amato, Nicola Fanizzi
+**类别**: cs.AI, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14795v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### VIPA: Visual Informative Part Attention for Referring Image Segmentation
+**作者**: Yubin Cho, Hyunwoo Yu, Kyeongbo Kong, Kyomin Sohn, Bongjoon Hyun, Suk-Ju Kang
+**类别**: cs.CV, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14788v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### What hackers talk about when they talk about AI: Early-stage diffusion of a cybercrime innovation
+**作者**: Benoît Dupont, Chad Whelan, Serge-Olivier Paquette
+**类别**: cs.CY, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14783v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### ROSA: Roundabout Optimized Speed Advisory with Multi-Agent Trajectory Prediction in Multimodal Traffic
+**作者**: Anna-Lena Schlamp, Jeremias Gerner, Klaus Bogenberger, Werner Huber, Stefanie Schmidtner
+**类别**: cs.MA, cs.CY, cs.RO, eess.SY
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14780v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### A Geometric Analysis of Small-sized Language Model Hallucinations
+**作者**: Emanuele Ricco, Elia Onofri, Lorenzo Cima, Stefano Cresci, Roberto Di Pietro
+**类别**: cs.CL, cs.AI, cs.CY
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14778v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### GOT-JEPA: Generic Object Tracking with Model Adaptation and Occlusion Handling using Joint-Embedding Predictive Architecture
+**作者**: Shih-Fang Chen, Jun-Cheng Chen, I-Hong Jhuo, Yen-Yu Lin
+**类别**: cs.CV, cs.AI, cs.LG, cs.MM, cs.NE
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14771v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Multi-Agent Comedy Club: Investigating Community Discussion Effects on LLM Humor Generation
+**作者**: Shiwei Hong, Lingyao Li, Ethan Z. Rong, Chenxinran Shen, Zhicong Lu
+**类别**: cs.CL, cs.AI, cs.CY, cs.HC
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14770v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Unlocking Reasoning Capability on Machine Translation in Large Language Models
+**作者**: Sara Rajaee, Sebastian Vincent, Alexandre Berard, Marzieh Fadaee, Kelly Marchisio, Tom Kocmi
+**类别**: cs.CL, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14763v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Universal Algorithm-Implicit Learning
+**作者**: Stefano Woerner, Seong Joon Oh, Christian F. Baumgartner
+**类别**: cs.LG, cs.AI, cs.CV
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14761v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Residual Connections and the Causal Shift: Uncovering a Structural Misalignment in Transformers
+**作者**: Jonathan Lys, Vincent Gripon, Bastien Pasdeloup, Lukas Mauch, Fabien Cardinaux, Ghouthi Boukli Hacene
+**类别**: cs.CL, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14760v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Inner Loop Inference for Pretrained Transformers: Unlocking Latent Capabilities Without Training
+**作者**: Jonathan Lys, Vincent Gripon, Bastien Pasdeloup, Lukas Mauch, Fabien Cardinaux, Ghouthi Boukli Hacene
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14759v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### AI Arms and Influence: Frontier Models Exhibit Sophisticated Reasoning in Simulated Nuclear Crises
+**作者**: Kenneth Payne
+**类别**: cs.AI, cs.CY, cs.GT
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14740v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Scale redundancy and soft gauge fixing in positively homogeneous neural networks
+**作者**: Rodrigo Carmo Terin
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14729v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### ManeuverNet: A Soft Actor-Critic Framework for Precise Maneuvering of Double-Ackermann-Steering Robots with Optimized Reward Functions
+**作者**: Kohio Deflesselle, Mélodie Daniel, Aly Magassouba, Miguel Aranda, Olivier Ly
+**类别**: cs.RO, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14726v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### WebWorld: A Large-Scale World Model for Web Agent Training
+**作者**: Zikai Xiao, Jianhong Tu, Chuhang Zou, Yuxin Zuo, Zhi Li, Peng Wang, Bowen Yu, Fei Huang, Junyang Lin, Zuozhu Liu
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14721v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Orcheo: A Modular Full-Stack Platform for Conversational Search
+**作者**: Shaojie Jiang, Svitlana Vakulenko, Maarten de Rijke
+**类别**: cs.IR, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14710v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Qute: Towards Quantum-Native Database
+**作者**: Muzhi Chen, Xuanhe Zhou, Wei Zhou, Bangrui Xu, Surui Tang, Guoliang Li, Bingsheng He, Yeye He, Yitong Song, Fan Wu
+**类别**: cs.DB, cs.AI, cs.AR
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14699v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Evolutionary System Prompt Learning can Facilitate Reinforcement Learning for LLMs
+**作者**: Lunjun Zhang, Ryan Chen, Bradly C. Stadie
+**类别**: cs.AI, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14697v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Removing Planner Bias in Goal Recognition Through Multi-Plan Dataset Generation
+**作者**: Mustafa F. Abdelwahed, Felipe Meneguzzi Kin Max Piamolini Gusmao, Joan Espasa
+**类别**: cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14691v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Exposing the Systematic Vulnerability of Open-Weight Models to Prefill Attacks
+**作者**: Lukas Struppek, Adam Gleave, Kellin Pelrine
+**类别**: cs.CR, cs.AI, cs.CL, cs.LG
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14689v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### SynthSAEBench: Evaluating Sparse Autoencoders on Scalable Realistic Synthetic Data
+**作者**: David Chanin, Adrià Garriga-Alonso
+**类别**: cs.LG, cs.AI
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14687v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
+### Exposing Diversity Bias in Deep Generative Models: Statistical Origins and Correction of Diversity Error
+**作者**: Farzan Farnia, Mohammad Jalali, Azim Ospanov
+**类别**: cs.LG, cs.AI, cs.CV, math.OC
+**发布日期**: 2026-02-16
+**链接**: http://arxiv.org/abs/2602.14682v1
+
+**论文分析出错**: Authentication Fails (governor)
+
+---
+
