@@ -11,6 +11,13 @@ jobs:
     timeout-minutes: 60  # 设置超时时间为5分钟
     
     steps:
+    - name: Test DeepSeek API
+      run: |
+        curl -s https://api.deepseek.com/v1/chat/completions \
+          -H "Authorization: Bearer ${{ secrets.DEEPSEEK_API_KEY }}" \
+          -H "Content-Type: application/json" \
+          -d '{"model":"deepseek-chat","messages":[{"role":"user","content":"hi"}]}'
+        
     - uses: actions/checkout@v3
     
     - name: Set up Python
