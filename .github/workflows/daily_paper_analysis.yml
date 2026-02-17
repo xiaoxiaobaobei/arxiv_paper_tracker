@@ -11,6 +11,17 @@ jobs:
     timeout-minutes: 60  # 设置超时时间为5分钟
     
     steps:
+    - name: Check secret
+      run: |
+        if [ -z "${{ secrets.DEEPSEEK_API_KEY }}" ]; then
+          echo "SECRET IS EMPTY"
+        else
+          echo "SECRET EXISTS, length: ${#DEEPSEEK_API_KEY}"
+        fi
+      env:
+        DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+
+    
     - name: Test DeepSeek API
       run: |
         curl -s https://api.deepseek.com/v1/chat/completions \
