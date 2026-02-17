@@ -35,7 +35,7 @@ EMAIL_TO = [email.strip() for email in os.getenv("EMAIL_TO", "").split(",") if e
 PAPERS_DIR = Path("./papers")
 CONCLUSION_FILE = Path("./conclusion.md")
 CATEGORIES = ["cs.MA", "cs.AI"]
-MAX_PAPERS = 50
+MAX_PAPERS = 88
 
 # 配置 DeepSeek 客户端（openai 1.x 写法）
 client = OpenAI(
