@@ -53,21 +53,17 @@ def get_recent_papers(categories, max_results=MAX_PAPERS):
     """获取最近5天内发布的指定类别的论文"""
     today = datetime.datetime.now()
     five_days_ago = today - datetime.timedelta(days=5)
-
     start_date = five_days_ago.strftime('%Y%m%d')
     end_date = today.strftime('%Y%m%d')
-
     category_query = " OR ".join([f"cat:{cat}" for cat in categories])
     date_range = f"submittedDate:[{start_date}000000 TO {end_date}235959]"
     query = f"({category_query}) AND {date_range}"
-
     logger.info(f"正在搜索论文，查询条件: {query}")
-
-    # 使用 arxiv.Client 解决 HTTP 301 问题
+    
     arxiv_client = arxiv.Client(
         page_size=min(max_results, 50),
-        delay_seconds=3,
-        num_retries=3,
+        delay_seconds=10,     # 3 → 10，拉大请求间隔
+        num_retries=10,       # 3 → 10，多重试几次
     )
     search = arxiv.Search(
         query=query,
@@ -75,7 +71,11 @@ def get_recent_papers(categories, max_results=MAX_PAPERS):
         sort_by=arxiv.SortCriterion.SubmittedDate,
         sort_order=arxiv.SortOrder.Descending
     )
-
+    
+    # 首次请求前等待一下，避免被限流
+    import time
+    time.sleep(5)
+    
     results = list(arxiv_client.results(search))
     logger.info(f"找到{len(results)}篇符合条件的论文")
     return results
