@@ -7,7 +7,7 @@ on:
 
 jobs:
   analyze-papers:
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
     timeout-minutes: 60  # 设置超时时间为5分钟
     
     steps:
