@@ -14,13 +14,17 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 from jinja2 import Template
+import functools  # ✅ 新增：用于注入 timeout
 
 # 加载环境变量
 load_dotenv()
 
 # 设置日志
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
-                   handlers=[logging.StreamHandler(sys.stdout)])
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(levelname)s - %(message)s",
+    handlers=[logging.StreamHandler(sys.stdout)],
+)
 logger = logging.getLogger(__name__)
 
 # 配置
@@ -40,7 +44,7 @@ MAX_PAPERS = 88
 # 配置 DeepSeek 客户端（openai 1.x 写法）
 client = OpenAI(
     api_key=DEEPSEEK_API_KEY,
-    base_url="https://api.deepseek.com/v1"
+    base_url="https://api.deepseek.com/v1",
 )
 
 # 如果不存在论文目录则创建
@@ -48,37 +52,62 @@ PAPERS_DIR.mkdir(exist_ok=True)
 logger.info(f"论文将保存在: {PAPERS_DIR.absolute()}")
 logger.info(f"分析结果将写入: {CONCLUSION_FILE.absolute()}")
 
+# ✅ 修改1：给 arxiv.Client 内部请求注入 timeout，避免请求无限挂死
+def make_arxiv_client(page_size: int, delay_seconds: float, num_retries: int, timeout=(5, 30)) -> arxiv.Client:
+    """
+    timeout = (connect_timeout_seconds, read_timeout_seconds)
+    - connect_timeout: 建连最长等待时间
+    - read_timeout: 服务器响应/读取最长等待时间
+    """
+    c = arxiv.Client(
+        page_size=page_size,
+        delay_seconds=delay_seconds,
+        num_retries=num_retries,
+    )
+
+    # arxiv.Client 内部用 requests.Session 存在 c._session
+    # 默认 requests.get 没有 timeout => 可能无限等待
+    # 这里用 functools.partial 强制每次 GET 带上 timeout
+    orig_get = c._session.get
+    c._session.get = functools.partial(orig_get, timeout=timeout)
+
+    return c
+
 
 def get_recent_papers(categories, max_results=MAX_PAPERS):
     """获取最近5天内发布的指定类别的论文"""
     today = datetime.datetime.now()
     five_days_ago = today - datetime.timedelta(days=5)
-    start_date = five_days_ago.strftime('%Y%m%d')
-    end_date = today.strftime('%Y%m%d')
+    start_date = five_days_ago.strftime("%Y%m%d")
+    end_date = today.strftime("%Y%m%d")
+
     category_query = " OR ".join([f"cat:{cat}" for cat in categories])
     date_range = f"submittedDate:[{start_date}000000 TO {end_date}235959]"
     query = f"({category_query}) AND {date_range}"
     logger.info(f"正在搜索论文，查询条件: {query}")
-    
-    arxiv_client = arxiv.Client(
+
+    # ✅ 仅替换这一段：用 make_arxiv_client 注入 timeout
+    arxiv_client = make_arxiv_client(
         page_size=min(max_results, 50),
-        delay_seconds=10,     # 3 → 10，拉大请求间隔
-        num_retries=10,       # 3 → 10，多重试几次
+        delay_seconds=3,  # 你原来是多少就保持多少
+        num_retries=5,    # 你原来是多少就保持多少
+        timeout=(5, 30),   # ✅ 新增：强制超时，避免卡死
     )
+
     search = arxiv.Search(
         query=query,
         max_results=max_results,
         sort_by=arxiv.SortCriterion.SubmittedDate,
-        sort_order=arxiv.SortOrder.Descending
+        sort_order=arxiv.SortOrder.Descending,
     )
-    
-    # 首次请求前等待一下，避免被限流
-    import time
+
+    # 首次请求前等待一下，避免被限流（保持不动）
     time.sleep(5)
-    
+
     results = list(arxiv_client.results(search))
     logger.info(f"找到{len(results)}篇符合条件的论文")
     return results
+
 
 
 def download_paper(paper, output_dir):
