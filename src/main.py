@@ -152,7 +152,7 @@ def analyze_paper_with_deepseek(pdf_path, paper):
 
         logger.info(f"正在分析论文: {paper.title}")
         response = client.chat.completions.create(
-            model="deepseek-chat",
+            model="deepseek-v4-flash",
             messages=[
                 {"role": "system", "content": "你是一位专门总结和分析学术论文的研究助手。请使用中文回复。"},
                 {"role": "user", "content": prompt},
